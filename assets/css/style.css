@@ -1,161 +1,118 @@
-* {
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-:root {
-    --pink: #F2D7D9;
-    --purple: #D3CEDF;
-    --grey: #9CB4CC;
-    --text: #748DA6;
-    --text-size: 
-}
+    <title>Yuri's First Portfolio </title>
 
-
-.header h1 {
-    display: inline-block;
-    font-size: 150%;
-}
-
-.header {
-    padding: 2%;
-    background: var(--pink);
-    color: var(--text);
-
-}
-
-
-.header nav {
-    padding: 2%;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    list-style-type: none;
-}
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 20px;
-}
-
-a {
-    color: var(--text)
-    text-decoration: none;
-}
-
-.figure {
-    display: flex;
-    height: 400px;
-    width: 80%;
-}
+</head>
+<body>
+    <header class="header">
+        <h1>YURI KWON</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#About-Me">About-Me</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
 
 
-figure p{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 60px;
-    float: left;
-}
-
-main {
-    display: block;
-    padding: 2%;
-    background: #d7e0de;
-    color: grey;
+    </header>
+    <figure class="figure" > 
+        <img src="./assets/image/yuri.png"  alt="my picture" />
+        <br text float="left" >
+            <p><b class="PassionateText">"Passionate" </b> and <b class="PositiveText">"Positive"</b> <br> THAT's <b class="Me">ME</b>
+        </p>
+        
     
-}
-h2 {
-    display: block;
-    padding: 2px;
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
-}
-
-
-.article {
     
-    flex: 4;
-    padding: 1;
+    </figure>
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    <main>
+        <section class="main-section">
+            <h2 id="About-me">About-Me</h2>
+            <p>Hello.  
+            My name is <b class="name">Yuri Kwon</b>, and I am a Coding Bootcamp student at the University of Washington.
+            <br>I majored in Art Sculpture at Korea International University.<br> I want to become a competent web design and app developer.
+            I will study hard in 6 months. 
+            <p id="thankyou">Thank you </p>
+            </p>
+        </section>
+
+        <h2 id="work">My Work</h2>
+        <section class="article">
+            <article class="card" >
+                <h3> Personal Portfolio</h3>
+                <p>Project Description:
+                    This is Yuri Kwon's personal portfolio website design.
+                </p>
+                <p>
+                    Project production period:
+                    2022.11.12-11.12
+                </p>
+                <p>    
+                    Project type:
+                    Responsive Website Design & Build
+                <p> 
+                    Project Engagement:
+                    100% individual project.
+                </p>
+            </article>
+
+            <article class="card">
+                <h3> Project Goal</h3>
+                <ul>
+                    <li>Easy-to-understand website structure
+                        Easy-to-understand UX & UI</li>
+                    <li>Create a web where users can interact through various micro interactions</li>
+                    <li>arouse user interest</li>
+                    <li>Unique colors and personal appeal</li>
+                </ul>
+
+            </article>
+            <article class="card">
+                <h3> Font / Color</h3>
+                <img src="./assets/image/colors.jpg" class="float-Center" alt="Sreen Main color" />
+
+            </article>
+            <article class="card">
+                <h3> Wireframe</h3>
+                <img src="./assets/image/Wireframe.jpg" class="float-Center" alt="Sreen Main color" />
+
+            </article>
+        </section>
+
+        <section class="main-section">
+            <h2 id="contact">Contact</h2>
+                <ul>
+                    <li>Phone   206.565.4218</li>
+                    <li>e-mail   <a href="uriyuri00@gmail.com">uriyuri00@gmail.com</a></li>
+                    <li>
+                        Github   <a href="https://github.com/uriyuri00" >https://github.com/uriyuri00</a>
+                    </li>
+                </ul>
+        </section>
+        
+
+    </main>
     
 
-}
-.card {
-    width: 40%;
-    display: inline-block;
-    margin: 20px;
-    padding: 20px;
-    text-align: left;
-    border-style: dashed;
-    border-radius: 20px;
-    flex: 0 0 300;
+
+<footer>
 
 
-}
+</footer>
 
-.main-section{
-    display: block;
-    padding: 2%;
-    height: 250px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: var(--purple);
-    color: #ffffff;
-    font-size: 100%;
-    
-}
-#thankyou {
-    text-align: right;
-    margin-right: 50px;
 
-}
-
-.card img {
-    max-width: 100%;
-}
-
-.PassionateText:hover {
-    background-color: var(--purple);
-    color: rgb(228, 114, 86);
-}
-.PositiveText:hover {
-    background-color: var(--pink);
-    color: var(--text);
-}
-.Me:hover{
-    font-size: 100px;
-    text-decoration: underline;
-    color: rgb(156, 75, 75)
-}
-.name {
-    font-size: 20px;
-    color: var(--text);
-    text-decoration: underline;
-}
-.name:hover {
-    font-size: 30px;
-    background-color: var(--pink);
-}
-
-@media screen and (max-width: 700px) {
-    .card {
-        width: 80%;
-        height: 80%;
-    }
-    .figure p{        
-        text-align: center;
-        font-size: 200%;
-
-    }
-    figure img {
-        height: 80%;
-    }
-    figure {
-        margin-bottom: -30px;
-    }
-
-}
+</body>
+</html>
