@@ -7,17 +7,17 @@
     --purple: #D3CEDF;
     --grey: #9CB4CC;
     --text: #748DA6;
-    --text-size: 20px
+    --text-size: 
 }
 
 body {
-    font-family::'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     margin: 2%;
 }  
 
 .header h1 {
     display: inline-block;
-    font-size: 35px;
+    font-size: 150%;
 }
 
 .header {
@@ -52,6 +52,7 @@ a {
     margin: 50px;   
 }
 
+
 figure p{
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
@@ -67,14 +68,15 @@ main {
 }
 h2 {
     display: block;
-    padding: 10px;
+    padding: 2px;
     text-align: center;
-
-
 }
+
 h3 {
     text-align: center;
 }
+
+
 .article {
     
     flex: 4;
@@ -104,9 +106,10 @@ h3 {
     display: block;
     padding: 2%;
     height: 200px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--purple);
     color: #ffffff;
+    font-size: 100%;
     
 }
 
@@ -114,9 +117,31 @@ h3 {
     max-width: 100%;
 }
 
+.PassonateText:hover {
+    background-color: var(--purple);
+    color: rgb(228, 114, 86);
+}
+.PossitiveText:hover {
+    background-color: var(--pink);
+    color: var(--text);
+}
+
+.name {
+    font-size: 20px;
+    color: var(--text);
+    text-decoration: underline;
+}
+.name:hover {
+    font-size: large;
+    background-color: var(--pink);
+}
+
 @media screen and (max-width: 900px) {
     .card {
         width: 50%;
+    }
+    figure p {
+        font-size: 300%;
     }
     
 }
@@ -125,10 +150,9 @@ h3 {
     .card {
         width: 100%;
     }
-    .figure {
-        
+    .figure p{        
         text-align: center;
-        
+        font-size: 200%;
 
     }
 }
