@@ -4,7 +4,7 @@
 * I'm currently learning HTML, CSS program.
 
 
-
+I coded this web-site from scrach to learn HTML CSS and to build my website.
 
 
 
@@ -16,4 +16,3 @@ before start Portfolio.
 * Media-Query-Screen
 * Flex box
 * Responsive-Design
-*
