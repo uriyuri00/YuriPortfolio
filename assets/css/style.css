@@ -10,10 +10,6 @@
     --text-size: 
 }
 
-body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    margin: 2%;
-}  
 
 .header h1 {
     display: inline-block;
@@ -26,6 +22,7 @@ body {
     color: var(--text);
 
 }
+
 
 .header nav {
     padding: 2%;
@@ -48,8 +45,7 @@ a {
 .figure {
     display: flex;
     height: 400px;
-    width: 100%;
-    margin: 50px;   
+    width: 80%;
 }
 
 
@@ -105,54 +101,61 @@ h3 {
 .main-section{
     display: block;
     padding: 2%;
-    height: 200px;
+    height: 250px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--purple);
     color: #ffffff;
     font-size: 100%;
     
 }
+#thankyou {
+    text-align: right;
+    margin-right: 50px;
+
+}
 
 .card img {
     max-width: 100%;
 }
 
-.PassonateText:hover {
+.PassionateText:hover {
     background-color: var(--purple);
     color: rgb(228, 114, 86);
 }
-.PossitiveText:hover {
+.PositiveText:hover {
     background-color: var(--pink);
     color: var(--text);
 }
-
+.Me:hover{
+    font-size: 100px;
+    text-decoration: underline;
+    color: rgb(156, 75, 75)
+}
 .name {
     font-size: 20px;
     color: var(--text);
     text-decoration: underline;
 }
 .name:hover {
-    font-size: large;
+    font-size: 30px;
     background-color: var(--pink);
-}
-
-@media screen and (max-width: 900px) {
-    .card {
-        width: 50%;
-    }
-    figure p {
-        font-size: 300%;
-    }
-    
 }
 
 @media screen and (max-width: 700px) {
     .card {
-        width: 100%;
+        width: 80%;
+        height: 80%;
     }
     .figure p{        
         text-align: center;
         font-size: 200%;
 
     }
+    figure img {
+        height: 80%;
+    }
+    figure {
+        margin-bottom: -30px;
+    }
+
 }
