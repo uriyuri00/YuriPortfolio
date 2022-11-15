@@ -20,6 +20,14 @@
 
 ***
 
+##Project Goal
+
+- Easy-to-understand website structure Easy-to-understand UX & UI
+
+- Create a web where users can interact through various micro interactions arouse user interest
+
+- Unique colors and personal appeal
+
 ##Key Features
 * Media-Query-Screen
 * Flex box
