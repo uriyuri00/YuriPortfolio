@@ -37,11 +37,6 @@
     margin-left: 20px;
 }
 
-a {
-    color: var(--text)
-    text-decoration: none;
-}
-
 .figure {
     display: flex;
     height: 400px;
@@ -59,7 +54,7 @@ main {
     display: block;
     padding: 2%;
     background: #d7e0de;
-    color: grey;
+    color: var(--text);
     
 }
 h2 {
@@ -75,9 +70,8 @@ h3 {
 
 .article {
     
-    flex: 4;
+    flex: 5;
     padding: 1;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -94,6 +88,20 @@ h3 {
     border-style: dashed;
     border-radius: 20px;
     flex: 0 0 300;
+
+
+}
+
+.card2 {
+    width: 100%;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    border-style: dashed;
+    border-radius: 20px;
+    flex: 0 0 300;
+
 
 
 }
@@ -115,6 +123,10 @@ h3 {
 }
 
 .card img {
+    max-width: 100%;
+}
+
+.card2 img {
     max-width: 100%;
 }
 
@@ -144,7 +156,7 @@ h3 {
 @media screen and (max-width: 700px) {
     .card {
         width: 80%;
-        height: 80%;
+        height: 90%;
     }
     .figure p{        
         text-align: center;
