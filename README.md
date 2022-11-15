@@ -28,6 +28,9 @@
 
 - Unique colors and personal appeal
 
+***
+
+
 ##Key Features
 * Media-Query-Screen
 * Flex box
