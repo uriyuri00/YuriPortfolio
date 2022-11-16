@@ -7,6 +7,30 @@
 ***
 
 
+##Personal Portfolio
+
+
+- Project Description: This is Yuri Kwon's personal portfolio website design.
+
+- Project production period: 2022.11.12-11.13
+
+- Project type: Responsive Website Design & Build
+
+- Project Engagement: 100% individual project.
+
+***
+
+##Project Goal
+
+- Easy-to-understand website structure Easy-to-understand UX & UI
+
+- Create a web where users can interact through various micro interactions arouse user interest
+
+- Unique colors and personal appeal
+
+***
+
+
 ##Key Features
 * Media-Query-Screen
 * Flex box
